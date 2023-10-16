@@ -1,0 +1,38 @@
+html{
+  background-color: #000;
+}
+p{
+  margin: 0 2rem;
+}
+.App {
+  text-align: center;
+  background-color: #2E369C;
+  color: white;
+  margin: 0 15rem;
+  padding: 2rem 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.welcome-text{
+  color: #000;
+  text-align: left;
+}
+textarea{
+  padding: 0.5rem;
+  margin: 1rem;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+.image{
+  width: 80%;
+  border: #000;
+}
+.button{
+  width: 30%;
+}
